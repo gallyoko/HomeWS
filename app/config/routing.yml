@@ -1,0 +1,15 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+place:
+    type:     rest
+    resource: AppBundle\Controller\PlaceController
+
+light:
+    type:     rest
+    resource: AppBundle\Controller\LightController
+
+recalbox:
+    type:     rest
+    resource: AppBundle\Controller\RecalboxController
